@@ -51,8 +51,8 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenQuoteModal, on
           {/* Column 1: Company Profile */}
           <div className="space-y-4">
             <div className="space-y-2">
-              <div className="inline-block bg-white p-2.5 sm:p-3 rounded-xl shadow-md border border-slate-100">
-                <RejoyLogo variant="dark" className="h-10 sm:h-12 w-auto" />
+              <div className="inline-block bg-white p-3 sm:p-3.5 rounded-2xl shadow-md border border-slate-100 max-w-[260px]">
+                <RejoyLogo variant="dark" className="h-11 sm:h-12 w-auto" />
               </div>
               <div className="pt-1 flex items-center gap-2">
                 <span className="px-2 py-0.5 text-[9px] font-black uppercase bg-[#2ECC71]/20 text-[#2ECC71] border border-[#2ECC71]/40 rounded-full inline-block">

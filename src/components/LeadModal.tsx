@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { X, CheckCircle2, Phone, MessageCircle, Sparkles } from 'lucide-react';
 import { COMPANY_DETAILS } from '../data/solarData';
+import { RejoyLogo } from './RejoyLogo';
 
 interface LeadModalProps {
   isOpen: boolean;
@@ -31,8 +32,12 @@ export const LeadModal: React.FC<LeadModalProps> = ({ isOpen, onClose }) => {
     <div className="fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-md flex items-center justify-center p-4">
       <div className="bg-white dark:bg-[#0B132B] w-full max-w-xl rounded-3xl shadow-2xl border border-slate-200 dark:border-slate-800 p-6 sm:p-8 relative overflow-hidden">
         {/* Header */}
-        <div className="flex items-center justify-between pb-4 border-b border-slate-200 dark:border-slate-800">
+        <div className="flex items-start justify-between pb-4 border-b border-slate-200 dark:border-slate-800">
           <div>
+            <div className="mb-2">
+              <RejoyLogo variant="dark" className="h-8 sm:h-9 w-auto dark:hidden" />
+              <RejoyLogo variant="light" className="h-8 sm:h-9 w-auto hidden dark:block" />
+            </div>
             <span className="text-xs font-bold uppercase text-[#0B4F6C] dark:text-[#FDB813] tracking-widest flex items-center gap-1">
               <Sparkles className="w-3.5 h-3.5 text-[#FDB813]" /> Rejoy Solar Energy Inquiry
             </span>

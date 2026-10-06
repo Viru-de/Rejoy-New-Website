@@ -100,7 +100,7 @@ export const Header: React.FC<HeaderProps> = ({
             >
               <RejoyLogo
                 variant="dark"
-                className="h-9 sm:h-11 w-auto group-hover:scale-102 transition-transform duration-200"
+                className="h-9 sm:h-11 w-auto max-h-12 group-hover:scale-102 transition-transform duration-200"
               />
               <span className="px-2 py-0.5 text-[9px] font-black uppercase bg-emerald-50 text-emerald-700 border border-emerald-200 rounded-full hidden sm:inline-block shrink-0">
                 CREDA Approved

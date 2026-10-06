@@ -1,34 +1,59 @@
-<svg viewBox="0 0 310 90" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Rejoy Solar Power Pvt. Ltd. White">
+<svg viewBox="0 0 320 100" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Rejoy Solar Power Pvt. Ltd. White">
   <defs>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@800;900&amp;display=swap");
+      .rej-text-white {
+        font-family: "Montserrat", "Arial Black", -apple-system, sans-serif;
+        font-weight: 900;
+        font-size: 64px;
+        letter-spacing: -1px;
+      }
+      .rej-sub-white {
+        font-family: "Montserrat", "Arial Black", -apple-system, sans-serif;
+        font-weight: 800;
+        font-size: 13.5px;
+        letter-spacing: 0.6px;
+      }
+    </style>
     <clipPath id="rejoy-bolt-clip-white">
-      <polygon points="208,0 152,41 184,41 126,90 158,48 132,48 188,0" />
+      <polygon points="214,3 154,45 186,45 128,98 160,52 134,52 194,3" />
     </clipPath>
   </defs>
 
-  <g id="rejoy-brand-logo-white">
-    <text x="0" y="56" fill="#FFFFFF" font-family="Montserrat, Poppins, 'Arial Black', sans-serif" font-weight="900" font-size="62" letter-spacing="-1.5px">REJ</text>
+  <g id="rejoy-logo-white">
+    <!-- REJ -->
+    <text x="2" y="60" fill="#FFFFFF" class="rej-text-white">REJ</text>
 
-    <circle cx="162" cy="36" r="30" fill="#FCB813" />
+    <!-- Sun Circle -->
+    <circle cx="168" cy="38" r="32" fill="#FCB813" />
 
-    <polygon points="208,0 152,41 184,41 126,90 158,48 132,48 188,0" fill="#082C43" />
+    <!-- Bolt Base -->
+    <polygon points="214,3 154,45 186,45 128,98 160,52 134,52 194,3" fill="#082C43" />
 
+    <!-- Solar Panel Grid Lines -->
     <g clip-path="url(#rejoy-bolt-clip-white)">
-      <line x1="110" y1="10" x2="220" y2="10" stroke="#FFFFFF" stroke-width="1.6" opacity="0.95" />
-      <line x1="110" y1="20" x2="220" y2="20" stroke="#FFFFFF" stroke-width="1.6" opacity="0.95" />
-      <line x1="110" y1="30" x2="220" y2="30" stroke="#FFFFFF" stroke-width="1.6" opacity="0.95" />
-      <line x1="110" y1="40" x2="220" y2="40" stroke="#FFFFFF" stroke-width="1.6" opacity="0.95" />
-      <line x1="110" y1="50" x2="220" y2="50" stroke="#FFFFFF" stroke-width="1.6" opacity="0.95" />
-      <line x1="110" y1="60" x2="220" y2="60" stroke="#FFFFFF" stroke-width="1.6" opacity="0.95" />
-      <line x1="110" y1="70" x2="220" y2="70" stroke="#FFFFFF" stroke-width="1.6" opacity="0.95" />
-      <line x1="110" y1="80" x2="220" y2="80" stroke="#FFFFFF" stroke-width="1.6" opacity="0.95" />
-      <line x1="194" y1="0" x2="140" y2="90" stroke="#FFFFFF" stroke-width="1.8" opacity="0.98" />
-      <line x1="180" y1="0" x2="126" y2="90" stroke="#FFFFFF" stroke-width="1.8" opacity="0.98" />
+      <!-- Longitudinal lines along bolt angle -->
+      <line x1="200" y1="3" x2="142" y2="98" stroke="#FFFFFF" stroke-width="1.6" opacity="0.95" />
+      <line x1="186" y1="3" x2="128" y2="98" stroke="#FFFFFF" stroke-width="1.6" opacity="0.95" />
+
+      <!-- Latitudinal cell cross lines -->
+      <line x1="110" y1="12" x2="230" y2="12" stroke="#FFFFFF" stroke-width="1.6" opacity="0.95" />
+      <line x1="110" y1="21" x2="230" y2="21" stroke="#FFFFFF" stroke-width="1.6" opacity="0.95" />
+      <line x1="110" y1="30" x2="230" y2="30" stroke="#FFFFFF" stroke-width="1.6" opacity="0.95" />
+      <line x1="110" y1="39" x2="230" y2="39" stroke="#FFFFFF" stroke-width="1.6" opacity="0.95" />
+      <line x1="110" y1="52" x2="230" y2="52" stroke="#FFFFFF" stroke-width="1.6" opacity="0.95" />
+      <line x1="110" y1="62" x2="230" y2="62" stroke="#FFFFFF" stroke-width="1.6" opacity="0.95" />
+      <line x1="110" y1="72" x2="230" y2="72" stroke="#FFFFFF" stroke-width="1.6" opacity="0.95" />
+      <line x1="110" y1="82" x2="230" y2="82" stroke="#FFFFFF" stroke-width="1.6" opacity="0.95" />
     </g>
 
-    <polygon points="208,0 152,41 184,41 126,90 158,48 132,48 188,0" fill="none" stroke="#FFFFFF" stroke-width="1.6" opacity="0.95" />
+    <!-- White border around bolt -->
+    <polygon points="214,3 154,45 186,45 128,98 160,52 134,52 194,3" fill="none" stroke="#FFFFFF" stroke-width="1.2" opacity="0.9" />
 
-    <text x="204" y="56" fill="#FFFFFF" font-family="Montserrat, Poppins, 'Arial Black', sans-serif" font-weight="900" font-size="62">Y</text>
+    <!-- Y -->
+    <text x="210" y="60" fill="#FFFFFF" class="rej-text-white">Y</text>
 
-    <text x="1" y="76" fill="#FFFFFF" font-family="Montserrat, Poppins, 'Arial Black', sans-serif" font-weight="800" font-size="14.5" letter-spacing="0.2px">SOLAR POWER PVT.LTD</text>
+    <!-- SOLAR POWER PVT.LTD -->
+    <text x="3" y="80" fill="#FFFFFF" class="rej-sub-white">SOLAR POWER PVT.LTD</text>
   </g>
 </svg>

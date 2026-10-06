@@ -29,6 +29,7 @@ export const COMPANY_DETAILS = {
   name: 'Rejoy Solar Power',
   legalName: 'Rejoy Solar Power Private Limited',
   tagline: "Chhattisgarh's Premier CREDA Approved Solar EPC Company",
+  logo: 'https://media.licdn.com/dms/image/v2/D4E0BAQEgPzL7QDYVxA/company-logo_200_200/company-logo_200_200/0/1736868245072?e=2147483647&v=beta&t=zZec6Wdr22Wos81rpnFDN6iPe8nNNryNuqC8WE5GFC4',
   description: 'Rejoy Solar Power Private Ltd is a pioneering EPC (Engineering, Procurement, and Construction) company dedicated to transforming the energy landscape with innovative and sustainable solar solutions. We specialize in solar production, installation services, franchise development, and an extensive range of renewable solar products. Our goal is to make clean, renewable energy accessible and affordable, contributing to a greener and more sustainable future.',
   phone: '+91 97705 77527',
   phoneSecondary: '+91 97705 77527',
