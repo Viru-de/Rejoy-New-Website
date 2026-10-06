@@ -1,0 +1,39 @@
+# Robots.txt for Rejoy Solar Power Pvt. Ltd. (Chhattisgarh, India)
+# Optimized for Search Engine Crawlers & AI Search Engines (GEO)
+
+User-agent: *
+Allow: /
+Disallow: /api/private/
+Disallow: /admin/
+
+# Explicitly Allow AI Web Crawlers for Generative Engine Optimization (GEO)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+# XML Sitemap Location
+Sitemap: https://rejoysolarpower.in/sitemap.xml
+
+# LLM Directives (AI Knowledge Bases)
+# https://rejoysolarpower.in/llms.txt
+# https://rejoysolarpower.in/llms-full.txt

@@ -1,0 +1,6 @@
+{
+  "name": "Rejoy Solar Power",
+  "description": "Official Rejoy Solar Power website - Chhattisgarh's premier CREDA approved solar EPC provider, offering rooftop solar solutions, PM Surya Ghar subsidies, and solar ROI calculator.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
