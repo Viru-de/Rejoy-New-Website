@@ -495,7 +495,7 @@ export const Header: React.FC<HeaderProps> = ({
               </a>
 
               <a
-                href="https://crm.rejoysolarpower.com/login"
+                href="https://erp.rejoysolarpower.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 rounded-xl bg-blue-50 hover:bg-blue-100 border border-blue-200 text-blue-700 font-bold text-xs flex items-center justify-between transition"

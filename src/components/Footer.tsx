@@ -175,7 +175,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenQuoteModal, on
               </li>
               <li>
                 <a
-                  href="https://crm.rejoysolarpower.com/login"
+                  href="https://erp.rejoysolarpower.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-[#FDB813] transition flex items-center gap-1.5 text-sky-300 font-semibold"
