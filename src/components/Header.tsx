@@ -25,6 +25,7 @@ import {
   FolderKanban,
   Send,
   Zap,
+  LogIn,
 } from 'lucide-react';
 
 interface HeaderProps {
@@ -241,6 +242,15 @@ export const Header: React.FC<HeaderProps> = ({
             {/* Desktop Action Buttons */}
             <div className="hidden lg:flex items-center gap-2 xl:gap-2.5">
               <a
+                href="https://erp.rejoysolarpower.com/"
+                className="h-9 px-3.5 rounded-xl bg-[#0B4F6C] hover:bg-[#083a50] text-white flex items-center gap-1.5 text-xs font-bold shadow-sm transition hover:scale-102"
+                aria-label="Login"
+              >
+                <LogIn className="w-3.5 h-3.5" />
+                <span>Login</span>
+              </a>
+
+              <a
                 href={`tel:${COMPANY_DETAILS.phoneRaw}`}
                 className="h-9 px-3 rounded-xl border border-slate-200 text-slate-800 hover:border-[#0B4F6C] hover:bg-slate-50 flex items-center gap-1.5 text-xs font-bold transition"
                 title="Call Now"
@@ -261,11 +271,20 @@ export const Header: React.FC<HeaderProps> = ({
               </a>
             </div>
 
-            {/* Mobile & Tablet Action Bar (Phone + Menu Toggle) */}
-            <div className="flex lg:hidden items-center gap-2">
+            {/* Mobile & Tablet Action Bar (Login + Phone + Menu Toggle) */}
+            <div className="flex lg:hidden items-center gap-1.5 sm:gap-2">
+              <a
+                href="https://erp.rejoysolarpower.com/"
+                className="h-9 px-2.5 sm:px-3 rounded-xl bg-[#0B4F6C] text-white flex items-center gap-1.5 text-xs font-bold shadow-sm transition"
+                aria-label="Login"
+              >
+                <LogIn className="w-3.5 h-3.5" />
+                <span>Login</span>
+              </a>
+
               <a
                 href={`tel:${COMPANY_DETAILS.phoneRaw}`}
-                className="h-9 px-3 rounded-xl bg-[#0B4F6C]/10 text-[#0B4F6C] hover:bg-[#0B4F6C]/20 flex items-center gap-1.5 text-xs font-bold transition"
+                className="h-9 px-2.5 sm:px-3 rounded-xl bg-[#0B4F6C]/10 text-[#0B4F6C] hover:bg-[#0B4F6C]/20 flex items-center gap-1.5 text-xs font-bold transition"
                 title="Call Now"
               >
                 <Phone className="w-3.5 h-3.5" />
@@ -464,6 +483,18 @@ export const Header: React.FC<HeaderProps> = ({
             {/* Customer Portal Link & Helpline */}
             <div className="pt-2 border-t border-slate-100 space-y-2">
               <a
+                href="https://erp.rejoysolarpower.com/"
+                className="p-3 rounded-xl bg-[#0B4F6C] hover:bg-[#083a50] text-white font-bold text-xs flex items-center justify-between transition shadow-sm"
+                aria-label="Login"
+              >
+                <div className="flex items-center gap-2">
+                  <LogIn className="w-4 h-4 text-[#FDB813]" />
+                  <span>Login</span>
+                </div>
+                <span className="text-[10px] text-slate-200">ERP Portal &rarr;</span>
+              </a>
+
+              <a
                 href="https://crm.rejoysolarpower.com/login"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -471,7 +502,7 @@ export const Header: React.FC<HeaderProps> = ({
               >
                 <div className="flex items-center gap-2">
                   <Users className="w-4 h-4 text-blue-600" />
-                  <span>CRM / Customer Portal Login</span>
+                  <span>Client Portal & Tracker</span>
                 </div>
                 <ExternalLink className="w-3.5 h-3.5" />
               </a>

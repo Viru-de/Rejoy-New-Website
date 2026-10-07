@@ -178,9 +178,10 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenQuoteModal, on
                   href="https://crm.rejoysolarpower.com/login"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="hover:text-sky-400 transition flex items-center gap-1 text-sky-300 font-semibold"
+                  className="hover:text-[#FDB813] transition flex items-center gap-1.5 text-sky-300 font-semibold"
                 >
                   Client Portal & Tracker
+                  <ExternalLink className="w-3 h-3 text-sky-400" />
                 </a>
               </li>
               <li>

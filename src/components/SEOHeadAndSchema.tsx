@@ -63,7 +63,7 @@ export const SEOHeadAndSchema: React.FC<SEOHeadAndSchemaProps> = ({ currentPage 
     '@type': 'Organization',
     name: COMPANY_DETAILS.name,
     url: 'https://rejoysolarpower.in',
-    logo: 'https://media.licdn.com/dms/image/v2/D4E0BAQEgPzL7QDYVxA/company-logo_200_200/company-logo_200_200/0/1736868245072?e=2147483647&v=beta&t=zZec6Wdr22Wos81rpnFDN6iPe8nNNryNuqC8WE5GFC4',
+    logo: 'https://erp.rejoysolarpower.com/logo-dark.png',
     contactPoint: {
       '@type': 'ContactPoint',
       telephone: COMPANY_DETAILS.phone,
@@ -77,7 +77,7 @@ export const SEOHeadAndSchema: React.FC<SEOHeadAndSchemaProps> = ({ currentPage 
     '@context': 'https://schema.org',
     '@type': 'SolarEnergyContractor',
     name: COMPANY_DETAILS.name,
-    image: 'https://media.licdn.com/dms/image/v2/D4E0BAQEgPzL7QDYVxA/company-logo_200_200/company-logo_200_200/0/1736868245072?e=2147483647&v=beta&t=zZec6Wdr22Wos81rpnFDN6iPe8nNNryNuqC8WE5GFC4',
+    image: 'https://erp.rejoysolarpower.com/logo-dark.png',
     telephone: COMPANY_DETAILS.phone,
     email: COMPANY_DETAILS.email,
     address: {
